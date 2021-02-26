@@ -2,7 +2,7 @@ FROM alpine:3.13
 
 LABEL maintainer "https://github.com/blacktop"
 
-RUN apk add --no-cache openjdk11-jre-headless su-exec
+RUN apk add --no-cache openjdk8-jre su-exec
 
 ENV VERSION 7.10.2
 ENV DOWNLOAD_URL "https://artifacts.elastic.co/downloads/elasticsearch"
